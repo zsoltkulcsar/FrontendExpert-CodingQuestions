@@ -1,0 +1,81 @@
+body {
+  background-color: beige;
+}
+
+.head {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid black;
+  margin-top: 20px;
+  background-color: #ffc0cb;
+}
+
+.ear {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #ffc0cb;
+  border: 5px solid black;
+  border-radius: 50%;
+  z-index: -1;
+  top: -10px;
+}
+
+.ear:first-child {
+  left: 10px;
+}
+
+.ear:nth-child(2) {
+  right: 10px;
+}
+
+.eye {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  top: 20%;
+}
+
+.eye:first-child {
+  left: 30px;
+}
+
+.eye:nth-child(2) {
+  right: 30px;
+}
+
+.pupil {
+  width: 50%;
+  height: 50%;
+  background-color: black;
+  border-radius: 50%;
+  margin: 50% auto;
+  transform: translateY(-50%);
+}
+
+.nose {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  width: 100px;
+  bottom: 30px;
+  left: 50%;
+  border-radius: 35%;
+  border: 2px solid black;
+  transform: translateX(-50%);
+  background-color: #f57187;
+}
+
+.nostril {
+  width: 25%;
+  height: 50%;
+  background-color: black;
+  border-radius: 50%;
+}
