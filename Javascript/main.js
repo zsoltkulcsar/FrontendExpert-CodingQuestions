@@ -1,12 +1,15 @@
-// main.js
 const prompts = require("prompts");
 
 const flatten = require("./flatten");
 const test = require("./test");
+const arrayMethods = require("./arrayMethods");
+const trendingStocks = require("./trendingStocks");
 
 const functions = {
   flatten,
   test,
+  arrayMethods,
+  trendingStocks,
 };
 
 async function main() {

@@ -32,3 +32,5 @@ function arrayMethods() {
     return accumulator;
   };
 }
+
+module.exports = arrayMethods;
